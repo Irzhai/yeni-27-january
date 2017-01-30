@@ -1,0 +1,62 @@
+Paradigmalar:
+Paradigma proqlasdirma dili deyil,programlasdirma dillerinde istifade olunan bir yoldur.paradigmanin coxlu novleri vardir;
+1)Imperative(?mr)-Control verilende emrleri ardicilliqla edir.aydin ardicilliq verilir.
+2)Declarative(neqli)-proqramlar istediyiniz neticeni verir nece elde eleceyinizi deyil.
+3)Structured(Strukturlasdirilmis)-buradaki proqlamlarin temiz serbest hereket edecek,ve ic-ice  kecmis kontrol strukturlari var.
+4)Procedural(Prosessual)-bu nov paradigma daha mutleqdir.cunki burada emr proqramlamsi ile prosedur cagirmalari iledir.
+5)Functional(funksional)-hesablama hansisa bir mueyyen durumdan qacinanlari funkisya zengleri ile cagirmaqa deyilir.
+6)Object-Oriented-bu novde biz her hansisa bir sinif qururuq meselen:class insan{
+public name
+public soyad
+public yas
+private xusiyyetler
+}
+burada insan bir sinif kimidir.biz hemin sinifde insana aid xususiyyetleri veririk.public xususiyyet onun her kese gorulen xususiyyetidir.biz public in icindekini morterizenin xaricindede isifade ede bilerik.private- ise yalniz ona aid olan s?xsi xususiyyetidir.
+biz bunu yalniz ve yalniz morterizenin icinde cagira bilerik.eslinde oop olmasaydi indiki oyunlar 50 gb yox 200 gb olardi.cunki oop bizim kod yazdigimiz kodlari qisaldir ve biz ondan rahat isrifade ede bilirik.
+Haqqinda;
+Coxlu php proqramcilarina oop cox qorxulu bir konsept halini almisdir,oop guclu sintaksis ve baska muhum alqoritmlerden teskil olunmusdur.menim kitabimda detallariyla verildiyi kimi php ve jquery-in konseptini oyrenerken oop den de cox istifade olunacaq.oop en cox php,js vs kimi dillerde istifade olunur.Biz her hanisa bir sinif aciriq ve hemin sinifin icinde 
+biz ona xas olan xusiyyetleri yaziriq,sonrada bize lazim olan vaxtlarda da biz onu elave kod yazmaq lazim olmadan cagiririq.BUda en cox php ve js developerler ucun xeyirlidir.
+Haqqinda2:Logic paradigmalar;
+Logical paradigmalar esasen proqramcinin verdiyi qerarlar esansinda proqramin ovtomatik olaraq hemin proqramciya verdiyi bir neticedir.Yeniki evvelceden proqramin yazilacagi mentiqe gore alqoritm cekilir ve daha sonra alqoritmi koda cevirib isledilir.
+mentiqe esaslanaraq proqramci mueyyen qanunlar qoyur,program yazilanda programin verdiyi neticeler bizim verdiyimiz qanunlara esaslanir.
+
+
+1.OBject;
+object daha evvel ifade etdiyim kimi sinife aid olan xusuiyyetlerdir.
+
+
+2.Class;
+biz class dan hansisa sinif acerken istifade edirik meselen
+class heyvanlar{
+}
+
+
+3.Inheritance-miras;
+Burada her hansisa bir sinifin yuxaridaki sinifden neyise miras almasi menasina gelir.meselen:
+clas insan{
+public name
+public soyad
+public ceki
+}
+class heyvan{
+public ceki
+}
+buradada gorunduyu kimi heyvan classindaki ceki insandan miras alinib.
+
+
+4.Polymorphism -ozellik
+Bu novde hansisa bir novun baska nov kimi davranabilme ve istifade ede bilme ozelliklerdir.Meselen;
+heyvan classinda biz class pisik ve class okuz aciriq.
+class pisik ve class okuz un ozellikleri heyvan classinda istifade ede bilmekdedir.
+
+
+5.Encapsulation
+Burada biz;
+public-her kese aciq olan bir novdur yuxarida yazdigim kimi basqa classlarda isrifade ede bilerik.
+private-yalniz gizli olandi.biz bunu yalniz ve yalniz hemin yazildigi morterizenin icinde yaza bilerik.amma basqa classlara cagirmaq qeti qadagandir yeniki alinmayacaqdir.)))
+protected-protectede ise yalniz obyektlere aid olan sinif metodlari ve bu siniflerden toreyen ixtiyari yarimsiniflerin eyni metodlari vasitesile muraciet etmek mumkundur.
+classlarindan istifade edirik.
+
+
+
+oxudugunuz ucun size derinden tesekkur edirem.Eminemki beyenmissiniz.
